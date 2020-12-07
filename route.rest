@@ -1,0 +1,10 @@
+GET http://localhost:8080/api
+
+### 
+POST http://localhost:8080/api/authenticate
+Content-Type: application/json
+
+{
+    "userName": "johndoe",
+    "password": "123"
+}
